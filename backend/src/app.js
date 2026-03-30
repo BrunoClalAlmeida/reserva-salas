@@ -34,7 +34,8 @@ const swaggerOptions = {
             }
         },
         servers: [
-            { url: 'http://localhost:5000', description: 'Desenvolvimento' }
+            { url: 'http://localhost:5000', description: 'Desenvolvimento' },
+            { url: 'https://reserva-salas-backend-kk3q.onrender.com', description: 'Produção' }
         ]
     },
     apis: ['./src/routes/*.js']
@@ -42,6 +43,11 @@ const swaggerOptions = {
 
 const swaggerDocs = swaggerJsdoc(swaggerOptions);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+
+// Rota principal (redireciona para o Swagger)
+app.get('/', (req, res) => {
+    res.redirect('/api-docs');
+});
 
 // Rotas
 app.use('/api/auth', authRoutes);
