@@ -50,12 +50,9 @@ Após rodar o backend, acesse: http://localhost:5000/api-docs
 
 | Nome | Papel |
 |------|-------|
-| Bruno Clal de Almeida | Arquiteto de Software em Nuvem |
-| Cristiano da Costa Silva | Desenvolvedor Back-end |
-| Cintia de Freitas Neves | Desenvolvedora Front-end |
-| Laís Ferreira | Engenheira DevOps |
-| Daniel Gomes | Responsável por Qualidade e Testes |
-| Siuvley Teles de Oliveira Queiros | Documentação e Integração |
+| Bruno Clal de Almeida | Arquiteto de Software em Nuvem e Desenvolvedora Front-end|
+| Cristiano da Costa Silva | Desenvolvedor Back-end e Responsável por Qualidade e Testes |
+| Laís Ferreira | Engenheira DevOps e Documentação e Integração |
 
 ## Licença
 
