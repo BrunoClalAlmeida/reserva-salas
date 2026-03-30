@@ -43,7 +43,7 @@ Após rodar o backend, acesse: http://localhost:5000/api-docs
 
 ## Deploy
 
-- **Frontend:** https://reserva-salas-frontend.vercel.app
+- **Frontend:** https://reserva-salas-chi.vercel.app/
 - **Backend:** https://reserva-salas-backend.onrender.com
 
 ## Equipe
